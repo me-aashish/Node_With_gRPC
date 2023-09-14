@@ -25,7 +25,7 @@ const todos = [
 ]
 
 server.addService(todoService.service, {
-    listTodos : (call, callback) => {
+    listTodos: (call, callback) => {
         callback(null, todos)
     },
 
