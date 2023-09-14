@@ -1,4 +1,4 @@
-syntax = "proto3"
+syntax = "proto3";
 
 service TodoService {
     rpc CreateTodo(Todo) returns (Todo) {}
@@ -18,6 +18,6 @@ message TodoList {
     repeated Todo todos = 1;
 }
 
-mesaage TodoRequest {
-    string id = 1
+message TodoRequest {
+    string id = 1;
 }
